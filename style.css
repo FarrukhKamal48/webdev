@@ -1,0 +1,30 @@
+.element {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blueviolet;
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    border-color: blueviolet;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    background-color: black;
+    flex-direction: row;
+    gap: 10px;
+}
+
+body {
+    margin: 0;
+    background-color: rgba(137, 43, 226, 0.356);
+}
+
+h1 {
+    margin: 10px 0px 0px 10px;
+    color: hsl(206, 16%, 30%);
+}
